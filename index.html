@@ -130,7 +130,7 @@
         </tr>
         <tr
           ng-class="{'selecionado negrito' : contato.selecionado}"
-          ng-repeat="contato in contatos | filter: criterioDeBusca | orderBy:'nome"
+          ng-repeat="contato in contatos | filter: criterioDeBusca | orderBy:'nome'"
         >
           <td><input type="checkbox" ng-model="contato.selecionado" /></td>
           <td>{{contato.nome}}</td>
